@@ -10,6 +10,7 @@
   |------------|---------|
   | Windows    | `KBDW Encoder_x.x.x_x64-setup.exe` ou `.msi` |
   | Linux      | `kbdw-encoder_x.x.x_amd64.deb` ou `.AppImage` |
+  | MacOs      | `Bientôt disponible` |
 
   ## Fonctionnalités
 
