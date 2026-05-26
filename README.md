@@ -26,3 +26,7 @@
   ## Mise à jour automatique
 
   L'application vérifie les mises à jour au démarrage et installe automatiquement.
+
+  ## Fonctionnalités a venir
+
+  - Ajout webhooks Teams
