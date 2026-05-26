@@ -73,4 +73,5 @@ KBDW remplace les tâches répétitives par des automatisations simples et fiabl
 ## 🔮 À venir
 
 - intégration Microsoft Teams
-- nouvelles automatisations avancées
+- automatisations avancées supplémentaires
+- nouvelles options de renommage intelligent
