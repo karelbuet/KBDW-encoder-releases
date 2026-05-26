@@ -1,32 +1,76 @@
-# KBDW-encoder-releases
+# KBDW Encoder
 
-  Application desktop d'encodage vidéo et audio H.265 10-bit avec accélération GPU.
+Automatisez l’encodage, l’organisation et la distribution de vos vidéos en un seul outil.
 
-  ## Téléchargement
+---
 
-  Retrouve la dernière version dans l'onglet [Releases](../../releases/latest).
+## ⚡ Ce que KBDW fait pour vous
 
-  | Plateforme | Fichier |
-  |------------|---------|
-  | Windows    | `KBDW Encoder_x.x.x_x64-setup.exe` ou `.msi` |
-  | Linux      | `kbdw-encoder_x.x.x_amd64.deb` ou `.AppImage` |
-  | MacOs      | `Bientôt disponible` |
+KBDW Encoder vous permet de :
 
-  ## Fonctionnalités
+- traiter des vidéos automatiquement en lot
+- organiser et renommer vos fichiers sans effort
+- envoyer vos vidéos directement vers vos serveurs ou bibliothèques
+- automatiser vos tâches répétitives
+- recevoir des notifications quand tout est terminé
 
-  - Encodage vidéo H.265 / HEVC avec GPU NVIDIA, Intel, AMD
-  - Encodage audio (FLAC, MP3, AAC, Opus...)
-  - File d'attente persistante avec SQLite
-  - Watch folders et règles automatiques
-  - Intégration Plex, SFTP, Synology, QNAP
-  - Webhooks Discord / Slack
-  - Mise à jour automatique intégrée
-  - Interface FR / EN, dark mode / light mode
+👉 Vous configurez une fois, KBDW s’occupe du reste.
 
-  ## Mise à jour automatique
+---
 
-  L'application vérifie les mises à jour au démarrage et installe automatiquement.
+## 🎯 Pour qui ?
 
-  ## Fonctionnalités a venir
+KBDW est conçu pour :
 
-  - Ajout webhooks Teams
+- créateurs de contenu (YouTube, TikTok, streaming)
+- monteurs vidéo
+- utilisateurs Plex / NAS
+- studios et équipes de production
+- toute personne qui manipule beaucoup de vidéos
+
+---
+
+## ⚙️ Fonctionnement simple
+
+1. Ajoutez vos vidéos
+2. Définissez vos règles une seule fois
+3. Laissez KBDW traiter automatiquement
+4. Récupérez vos fichiers prêts à l’usage
+
+---
+
+## 📦 Téléchargement
+
+Retrouvez la dernière version dans les [Releases](../../releases/latest).
+
+| Plateforme | Fichier |
+|------------|---------|
+| Windows    | `.exe` ou `.msi` |
+| Linux      | `.deb` ou `.AppImage` |
+| macOS      | bientôt disponible |
+
+---
+
+## 🔔 Automatisez votre workflow
+
+KBDW peut :
+
+- surveiller vos dossiers
+- lancer des traitements automatiquement
+- envoyer vos fichiers vers vos serveurs
+- vous notifier sur Discord ou Slack
+
+---
+
+## ✨ Pourquoi utiliser KBDW ?
+
+Parce que gérer des vidéos ne devrait pas être compliqué.
+
+KBDW remplace les tâches répétitives par des automatisations simples et fiables.
+
+---
+
+## 🔮 À venir
+
+- intégration Microsoft Teams
+- nouvelles automatisations avancées
