@@ -22,11 +22,11 @@ KBDW Encoder vous permet de :
 
 KBDW est conçu pour :
 
+- utilisateurs avancés de vidéo (Plex, NAS, homelab)
 - créateurs de contenu (YouTube, TikTok, streaming)
-- monteurs vidéo
-- utilisateurs Plex / NAS
-- studios et équipes de production
-- toute personne qui manipule beaucoup de vidéos
+- monteurs et studios de production
+- équipes qui gèrent de gros volumes de vidéos
+- toute personne qui veut automatiser ses workflows vidéo
 
 ---
 
