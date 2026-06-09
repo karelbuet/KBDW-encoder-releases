@@ -76,3 +76,4 @@ KBDW remplace les tâches répétitives par des automatisations simples et fiabl
 - automatisations avancées supplémentaires
 - nouvelles options de renommage intelligent
 - formulaire de suggestions et signalement de bugs
+- support langues: Espagnol, Portugais et Allemand
