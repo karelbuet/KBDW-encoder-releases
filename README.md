@@ -75,4 +75,5 @@ KBDW remplace les tâches répétitives par des automatisations simples et fiabl
 - intégration Microsoft Teams
 - automatisations avancées supplémentaires
 - nouvelles options de renommage intelligent
+- Ajout des langues: 🇮🇹 Italien, 🇳🇱 Néerlandais, 🇵🇱 Polonais
 
