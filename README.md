@@ -1,114 +1,64 @@
-# KBDW Encoder
+# FLOWYN
 
-**The all-in-one media automation platform.**
+**Connected Media Automation**
 
-Analysez, optimisez, organisez et automatisez votre médiathèque depuis une seule application.
+**One media. One flow.**
 
-Que vous utilisiez Plex, Jellyfin, Emby, un NAS ou simplement des dossiers locaux, KBDW Encoder automatise les tâches répétitives afin que vous puissiez profiter pleinement de votre collection.
+FLOWYN is a desktop application for analyzing, optimizing, encoding and organizing media libraries.
 
----
-
-## 🚀 Ce que KBDW Encoder fait pour vous
-
-KBDW Encoder automatise l'ensemble de votre workflow multimédia :
-
-- 🎬 Encodage vidéo intelligent avec FFmpeg
-- 🎵 Optimisation des bibliothèques musicales
-- 📚 Analyse complète de votre médiathèque
-- 🏷️ Renommage intelligent des médias
-- 📂 Organisation automatique des films, séries et musiques
-- 🔄 Réencodage des bibliothèques existantes
-- ⚡ Traitement automatique grâce aux dossiers surveillés
-- 🤖 Automatisations configurables
-- 📊 Statistiques détaillées sur vos traitements
-- 🌱 Estimation de l'impact environnemental des encodages
-- 🔔 Notifications Discord et Slack
-- 🌐 Gestion de plusieurs sources multimédias
-
-👉 Configurez votre workflow une seule fois, KBDW Encoder s'occupe du reste.
+It brings media analysis, processing and automation together in a single application, supporting local folders, NAS storage, Plex, Jellyfin, Emby and SFTP sources.
 
 ---
 
-## 🎯 Pour qui ?
+## 🚀 Features
 
-KBDW Encoder est conçu pour :
+### 📚 Media Analysis
 
-- les utilisateurs de Plex
-- les utilisateurs de Jellyfin
-- les utilisateurs d'Emby
-- les possesseurs de NAS
-- les homelabs
-- les créateurs de contenu
-- les monteurs vidéo
-- les studios de production
-- toute personne souhaitant automatiser la gestion de sa médiathèque
+FLOWYN analyzes media libraries to identify optimization opportunities and provide detailed information about existing files.
 
----
+It can identify:
 
-## 📚 Analyse intelligente de la bibliothèque
+- 🎬 Video and audio codecs
+- 📦 Media formats
+- 💾 Files that could potentially be optimized
+- 📉 Potential disk space savings
+- ✅ Media that is already optimized
 
-Analysez une médiathèque entière en quelques clics.
-
-KBDW Encoder peut identifier automatiquement :
-
-- les vidéos pouvant être réencodées
-- les fichiers audio pouvant être optimisés
-- l'espace disque pouvant être économisé
-- les codecs utilisés
-- les formats présents
-- les médias déjà optimisés
-
-Vous choisissez ensuite les fichiers à traiter.
+Analysis allows you to evaluate your library before deciding what should be processed.
 
 ---
 
-## 📊 Statistiques & impact environnemental
+### 🎞️ Video Encoding
 
-Suivez les performances de votre médiathèque et mesurez les bénéfices de vos optimisations.
+Video processing is powered by **FFmpeg**.
 
-KBDW Encoder fournit notamment :
-
-- 📈 Des statistiques détaillées sur les traitements effectués
-- 💾 L'espace disque économisé
-- 🎬 Le nombre de médias optimisés
-- ⚡ Les performances des encodages
-- 🌱 Une estimation de l'impact environnemental des optimisations réalisées
-
-Visualisez en un coup d'œil les gains apportés par vos automatisations.
-
----
-
-## 🎞️ Encodage intelligent
-
-Personnalisez entièrement vos traitements.
-
-### Vidéo
-
-**Codecs pris en charge :**
+Supported video codecs include:
 
 - H.264
 - H.265 / HEVC
 - AV1
 - VP9
 
-**Options disponibles :**
+Encoding options include:
 
-- CRF configurable
-- Presets
-- Formats de sortie
-- Conservation de l'original
-- Réencodage même si le fichier est déjà compatible
+- Configurable CRF
+- Encoding presets
+- Output formats
+- Keeping original files
+- Re-encoding existing media
 
-### Audio
+---
 
-**Codecs disponibles :**
+### 🎵 Audio Encoding
+
+FLOWYN supports a wide range of audio codecs:
 
 - Opus
 - AAC
 - MP3
 - Vorbis
-- AC-3 (Dolby Digital)
-- E-AC-3 (Dolby Digital Plus)
+- AC-3
+- E-AC-3
 - FLAC
 - ALAC
 - WavPack
@@ -116,88 +66,151 @@ Personnalisez entièrement vos traitements.
 - PCM 16-bit
 - PCM 24-bit
 
-**Options disponibles :**
+Available options include:
 
-- Codec de sortie
-- Bitrate configurable (selon le codec)
-- Format de sortie
-- Conservation de l'original
-
----
-
-## 🤖 Automatisation complète
-
-Créez des workflows entièrement automatiques.
-
-KBDW Encoder peut :
-
-- surveiller un ou plusieurs dossiers
-- détecter automatiquement les nouveaux médias
-- analyser les fichiers
-- décider s'ils doivent être optimisés
-- les ajouter à la file d'encodage
-- envoyer des notifications
-
-Le tout sans intervention manuelle.
+- Output codec
+- Configurable bitrate where applicable
+- Output format
+- Keeping original files
 
 ---
 
-## 🌐 Sources prises en charge
+### 🏷️ Media Organization
 
-KBDW Encoder peut travailler avec plusieurs sources de médias :
+FLOWYN can automate common media organization tasks, including:
 
-| Source | Statut |
-|---------|--------|
-| 📁 Local | ✅ Pris en charge |
-| 🖥️ NAS | ✅ Pris en charge |
-| 🎬 Plex | ✅ Pris en charge |
-| 📺 Jellyfin | ✅ Pris en charge |
-| 🎞️ Emby | ✅ Pris en charge |
-| 🌍 SFTP | ✅ Pris en charge |
+- Intelligent media renaming
+- Organization of movies, TV shows and music
+- Processing of existing libraries
+- Automatic handling of processed media
 
 ---
 
-## 📦 Téléchargement
+## 🤖 Media Automation
 
-Retrouvez toujours la dernière version dans les **Releases**.
+FLOWYN can automate repetitive media-processing tasks through configurable workflows.
 
-| Plateforme | Disponible |
-|------------|------------|
-| Windows | ✅ `.exe` • `.msi` |
-| Linux | ✅ `.deb` • `.AppImage` |
-| macOS | 🚧 Bientôt disponible |
+Automation capabilities include:
 
----
+- 📂 Watched folders
+- 🔎 Automatic detection of new media
+- 📚 Media analysis
+- ⚙️ Processing queues
+- 🎞️ Automatic encoding
+- 🏷️ Media renaming
+- 📁 Media organization
+- 🔔 Workflow notifications
 
-## ⭐ Pourquoi choisir KBDW Encoder ?
+A typical workflow can process incoming media automatically, from detection through to organization and notification.
 
-KBDW Encoder va bien au-delà d'un simple encodeur vidéo.
-
-Il automatise l'ensemble de votre médiathèque :
-
-- 📚 Analyse
-- 🎞️ Encodage
-- 🏷️ Renommage
-- 📂 Organisation
-- 🔄 Optimisation
-- 📊 Statistiques
-- 🌱 Suivi de l'impact environnemental
-- 📤 Distribution
-- 🔔 Notifications
-
-Le tout dans une seule application, sans avoir besoin de multiplier les outils ou les scripts.
+**Your media comes in. FLOWYN handles the flow.**
 
 ---
 
-## 🔮 À venir
+## 🌐 Media Sources
 
-Les prochaines versions apporteront notamment :
+FLOWYN supports multiple types of media sources:
 
-- 📚 Automatisation avancée des bibliothèques
-- 🧠 Décisions d'encodage encore plus intelligentes
-- 💬 Intégration Microsoft Teams
-- ♿ Améliorations de l'accessibilité
+| Source | Status |
+| --- | --- |
+| 📁 Local folders | ✅ Supported |
+| 🖥️ NAS | ✅ Supported |
+| 🎬 Plex | ✅ Supported |
+| 📺 Jellyfin | ✅ Supported |
+| 🎞️ Emby | ✅ Supported |
+| 🌍 SFTP | ✅ Supported |
 
 ---
 
-**KBDW Encoder** simplifie la gestion de votre médiathèque en automatisant toutes les étapes, de l'analyse jusqu'à l'organisation, tout en vous permettant de suivre les performances de vos optimisations grâce à des statistiques détaillées et à une estimation de leur impact environnemental.
+## 📊 Statistics & Environmental Impact
+
+FLOWYN tracks processing results and provides statistics about your media workflows.
+
+Statistics include:
+
+- 📈 Processed media
+- 🎬 Number of optimized files
+- 💾 Disk space saved
+- ⚡ Encoding performance
+- 🌱 Estimated environmental impact
+
+This provides a clear overview of the results achieved through your media-processing workflows.
+
+---
+
+## 🔔 Notifications
+
+FLOWYN supports workflow notifications through:
+
+- Discord
+- Slack
+- Microsoft Teams
+
+Notifications help you keep track of automated processing without constantly monitoring the application.
+
+---
+
+## 🔄 Typical Workflow
+
+FLOWYN can connect multiple operations into a single workflow:
+
+**Analyze → Optimize → Encode → Rename → Organize → Track → Notify**
+
+The exact workflow depends on your configuration, media sources and processing requirements.
+
+---
+
+## 🎯 Who is FLOWYN for?
+
+FLOWYN is designed for users managing media collections and automated media workflows, including:
+
+- Plex users
+- Jellyfin users
+- Emby users
+- NAS owners
+- Homelab users
+- Content creators
+- Video editors
+- Production environments
+- Users managing large media libraries
+
+---
+
+## 📦 Download
+
+Get the latest version from the **[Releases](../../releases)** section.
+
+| Platform | Availability |
+| --- | --- |
+| Windows | ✅ `.exe` / `.msi` |
+| Linux | ✅ `.deb` / `.AppImage` |
+| macOS | 🚧 Coming soon |
+
+---
+
+## 🔮 Roadmap
+
+FLOWYN is continuously evolving. Planned improvements include:
+
+- 💿 Physical media sources for CD, DVD and Blu-ray extraction
+- 🤖 Further improvements to media workflow automation
+- 📚 Expanded media library management
+- 🔗 Additional media sources and integrations
+- ⚙️ More advanced workflow configuration
+- 🚀 Continuous improvements to performance, reliability and user experience
+
+The roadmap may evolve as development progresses.
+
+---
+
+## 🌊 The FLOWYN Philosophy
+
+Media management often involves multiple tools, scripts and manual operations.
+
+FLOWYN brings these operations together into a single application, allowing media to move through a configurable workflow from analysis and optimization to encoding, organization and notification.
+
+The goal is simple:
+
+**Less manual work. More automation.**
+
+### One media. One flow.
